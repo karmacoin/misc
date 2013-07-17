@@ -102,7 +102,7 @@ def strategy(justdice):
     max_losses_in_row = 4        # Reset to the initial bet.
     max_wins_in_row = 2          # Reset to the initial bet.
     num_rounds = 24
-    max_bet_pct = Decimal('0.01')# Bet at max 1% of the current bankroll.
+    max_bet_pct = Decimal('0.8')# Bet at max 1% of the current bankroll.
     breaker_pattern = [False, True, False, True] # Loss, Win, Loss
     breaker_bets = 7 # Number of bets to do after hitting the pattern above.
     breaker_bet_amount = Decimal('0.000075') # BTC
